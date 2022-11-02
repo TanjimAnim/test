@@ -407,17 +407,8 @@ export const Data = {
           desktop: {
             position: "relative !important",
             zIndex: "1",
-            before: {
-              content: "",
-              position: "absolute",
-              top: "176px",
-              right: "190px",
-              width: "300px",
-              height: "300px",
-              background: "#f6ba38",
-              filter: "blur(200px)",
-              zIndex: " -1",
-            },
+            before:
+              'content:"";\nposition:absolute;\ntop: 176px;\nright: 190px;\nwidth:300px;\nheight:300px;\nbackground:#f6ba38;\nfilter:blur(200px);\nz-index: -1;',
           },
           mobile: {
             position: "relative !important",
