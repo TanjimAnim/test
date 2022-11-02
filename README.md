@@ -1,4 +1,4 @@
-## Start Frontend-
+## To Run the Project-
 
 ```
     #clone the repo
